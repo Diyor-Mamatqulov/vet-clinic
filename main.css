@@ -41,6 +41,7 @@ body {
   height: 100%;
   font-family: "Future PT", "Arial", sans-serif;
   margin: 0;
+  overflow-x: hidden;
   background-image: url("./images/bg.png");
   background-color: #f9f8f8;
 }
