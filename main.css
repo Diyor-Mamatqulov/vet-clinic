@@ -1115,6 +1115,13 @@ nav {
 .site-footer__item-last {
   display: inline-block;
   margin-bottom: 3px;
+  transition: color 0.5s ease;
+}
+.site-footer__item-last:hover {
+  color: #ffbd54;
+}
+.site-footer__item-last:active {
+  color: #333333b3;
 }
 .site-footer__item-last:nth-child(2) {
   display: block;
@@ -1141,6 +1148,13 @@ nav {
 .site-footer__address-link {
   color: #333333;
   text-decoration: none;
+  transition: color 0.5s ease;
+}
+.site-footer__address-link:hover {
+  color: #ffbd54;
+}
+.site-footer__address-link:active {
+  color: #333333b3;
 }
 .site-footer__phone-list {
   margin: 0;
@@ -1164,6 +1178,13 @@ nav {
 .site-footer__phone-link {
   color: #333333;
   text-decoration: none;
+  transition: color 0.5s ease;
+}
+.site-footer__phone-link:hover {
+  color: #ffbd54;
+}
+.site-footer__phone-link:active {
+  color: #333333b3;
 }
 .site-footer__text {
   margin: 0;
