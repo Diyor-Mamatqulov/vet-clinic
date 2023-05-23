@@ -315,7 +315,8 @@ nav {
 }
 .hero {
   padding-bottom: 311px;
-  background-image: url("./images/Group.png"), url("./images/parrot.png");
+  background-image: url("./images/Group.png"), 
+  url("./images/groupgreen.png");
   background-repeat: no-repeat;
   background-position: calc(50% - 500px) calc(50% - 100px), 
   calc(50% + 565px) calc(50% + 239px);
