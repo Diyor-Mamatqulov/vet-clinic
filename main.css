@@ -35,6 +35,10 @@
 html {
   height: 100%;
 }
+img{
+  display: block;
+  /* height: auto; */
+}
 body {
   display: flex;
   flex-direction: column;
@@ -244,13 +248,11 @@ nav {
 .nav__item {
   display: flex;
   align-items: center;
-  /* padding: 10px; */
   margin-right: 46px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
-  
 }
 .nav__item:hover {
   border-bottom: 2px solid #f4ffad;
@@ -1072,7 +1074,6 @@ nav {
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
-  
 }
 .site-footer__wrapper {
   display: flex;
@@ -1208,4 +1209,392 @@ nav {
   margin: 0;
   padding-bottom: 23px;
   text-align: right;
+}
+/* .contact {
+  display: inline-block;
+  background-image: url("./images/bulldog.png");
+  background-position: calc(50% - 50px) calc(50% - 50px);
+  background-repeat: no-repeat;
+  content: "";
+} */
+.container {
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.contact__wrapper {
+  display: flex;
+  position: relative;
+  margin-bottom: 100px;
+  /* padding-bottom: 50px; */
+}
+.contact__inner {
+  width: 447px;
+  padding: 118px 0;
+}
+.contact__title {
+  margin-top: 0;
+  margin-bottom: 27px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+}
+.contact__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.contact__div {
+  display: flex;
+}
+.contact__address {
+  margin-right: 118px;
+}
+.contact__address::before {
+  display: block;
+  margin-bottom: 30px;
+  background-image: url("./images/location.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 73px;
+  height: 73px;
+  content: "";
+}
+.contact__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  text-decoration: none;
+}
+.contact__list {
+  margin: 0 118px 0 0;
+  padding-left: 0;
+  list-style: none;
+}
+.contact__list::before {
+  display: block;
+  margin-bottom: 27px;
+  background-image: url("./images/calendar.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 76px;
+  height: 72px;
+  content: "";
+}
+.contact__item {
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+.contact__item:nth-child(2) {
+  margin-bottom: 0;
+}
+.contact__list-last { 
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.contact__list-last::before {
+  display: block;
+  margin-bottom: 27px;
+  background-image: url("./images/telephone.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 41px;
+  height: 72px;
+  content: "";
+}
+.contact__item-last {
+  margin-bottom: 9px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+.contact__item-last:nth-child(3) {
+  margin-bottom: 0;
+}
+.contact__link-last {
+  color: #333333;
+  text-decoration: none;
+}
+.contact__img-wrapper {
+  position: absolute;
+  top: 25px;
+  right: -200px;
+}
+.laboratory {
+  position: relative;
+  padding-bottom: 70px;
+  padding-top: 100px;
+  
+}
+.laboratory__box-img{
+  position: absolute;
+  top: 108px;
+  left: 160px;
+  max-width: 1300px;
+  width: 100%;
+  height: 431px;
+  margin:  0 auto;
+  background-image: url("./images/puppy.svg");
+  background-size: 1300px  431px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.laboratory__title {
+  margin: 0;
+  margin-bottom: 0;
+  padding-top: 264px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  color: #333333;
+  text-align: center;
+  vertical-align: bottom
+}
+.map-img {
+  margin-bottom: 206px;
+}
+.map-img__wrapper {
+  display: flex;
+  max-width: 1600px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.vethospital {
+  margin-bottom: 169px;
+  background-image: url("./images/greenparrot.png");
+  background-position: calc(50% + 600px) calc(0% - 30px);
+  background-size: 435px 460px;
+  background-repeat: no-repeat;
+}
+.container {
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.vethospital__inner {
+  max-width: 555px;
+  width: 100%;
+  padding-top: 118px;
+  padding-bottom: 140px;
+  padding-left: 50px;
+}
+.vethospital__title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+}
+.vethospital__text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.vethospital__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.vethospital__item {
+  position: relative;
+  margin-right: 30px;
+  margin-bottom: 34px;
+  max-width: 305px;
+  width: 100%;
+  padding: 59px 22px 45px 35px;
+}
+.vethospital__item.vethospital__item:nth-child(4n) {
+  margin-right: 0px;
+}
+.vethospital__item.vethospital__item:nth-child(9) {
+  margin-bottom: 0px;
+}
+.vethospital__item.vethospital__item:nth-child(10) {
+  margin-bottom: 0px;
+}
+.vethospital__item.vethospital__item:nth-child(11) {
+  margin-bottom: 0px;
+}
+.vethospital__item.vethospital__item:nth-child(12) {
+  margin-bottom: 0px;
+}
+
+.vethospital__item::before {
+  position: absolute;
+  top: 0px;
+  left: 160px;
+  width: 108px;
+  height: 94px;
+  background-image: url("./images/petpawgrey.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: "";
+}
+.vethospital__item:hover {
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.vethospital__subtitle {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 14px;
+  font-size: 30px;
+  line-height: 34px;
+  color: #333333;
+}
+.vethospital__subtitle::before {
+  display: block;
+  width: 54px;
+  height: 77px;
+  margin-bottom: 22px;
+  background-image: url("./images/doctor.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.vethospital__subtitle--second::before {
+  width: 62px;
+  height: 77px;
+  background-image: url("./images/nurse.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.vethospital__subtitle--third::before {
+  width: 72px;
+  height: 77px;
+  background-image: url("./images/drip.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.vethospital__subtitle--fourth::before {
+  width: 76px;
+  height: 76px;
+  background-image: url("./images/skin.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.vethospital__subtitle--fifth::before {
+  width: 78px;
+  height: 78px;
+  background-image: url("./images/microscope.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.vethospital__subtitle--sixth::before {
+  width: 76px;
+  height: 76px;
+  background-image: url("./images/couple.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.vethospital__subtitle--seventh::before {
+  width: 77px;
+  height: 77px;
+  background-image: url("./images/egungun.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.vethospital__subtitle--eighth::before {
+  width: 40px;
+  height: 77px;
+  background-image: url("./images/needle.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.vethospital__subtitle--ninth::before {
+  width: 87px;
+  height: 78px;
+  background-image: url("./images/dogcalendar.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.vethospital__subtitle--tenth::before {
+  width: 68px;
+  height: 76px;
+  background-image: url("./images/capsula.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.vethospital__subtitle--eleventh::before {
+  width: 78px;
+  height: 78px;
+  background-image: url("./images/dogteeth.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.vethospital__subtitle--twelfth::before {
+  width: 77px;
+  height: 77px;
+  background-image: url("./images/veterinarybag.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.vethospital__desc {
+  margin-top: 0;
+  margin-bottom: 26px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.vethospital__link {
+  display: inline-block;
+  font-weight: 450;
+  padding: 15px 29px 14px 30px;
+  font-size: 16px;
+  line-height: 21px;
+  background-color: #ffbd54;
+  color: #ffffff;
+  border-radius: 3px;
+  text-decoration-line: none;
+}
+.vethospital__link:hover {
+  background-color: #000000;
+}
+
+.vethospital__link--second {
+  background-color: #78c0de;
+}
+.vethospital__link--third {
+  background-color: #ffbd54;
+}
+.vethospital__link--fourth {
+  background-color: #78c0de;
+}
+.vethospital__link--fifth {
+  background-color: #ffbd54;
+}
+.vethospital__link--sixth {
+  background-color: #78c0de;
+}
+.vethospital__link--seventh {
+  background-color: #ffbd54;
+}
+.vethospital__link--eighth {
+  background-color: #78c0de;
+}
+.vethospital__link--ninth {
+  background-color: #ffbd54;
+}
+.vethospital__link--tenth {
+  background-color: #78c0de;
+}
+.vethospital__link--eleventh {
+  background-color: #ffbd54;
+}
+.vethospital__link--twelfth {
+  background-color: #78c0de;
 }
