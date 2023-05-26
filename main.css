@@ -253,6 +253,7 @@ nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
+
 }
 .nav__item:hover {
   border-bottom: 2px solid #f4ffad;
@@ -1218,6 +1219,7 @@ nav {
   background-repeat: no-repeat;
   content: "";
 } */
+
 .container {
   max-width: 1350px;
   width: 100%;
@@ -1332,15 +1334,20 @@ nav {
   right: -200px;
 }
 .laboratory {
-  position: relative;
   padding-bottom: 70px;
   padding-top: 100px;
   
 }
+.laboratory__box-div {
+  position: relative;
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+}
 .laboratory__box-img{
   position: absolute;
-  top: 108px;
-  left: 160px;
+  top: calc(0px + 13px);
+  left: calc(0px + 32px);
   max-width: 1300px;
   width: 100%;
   height: 431px;
